@@ -3,7 +3,7 @@ Type: Package
 Title: OpEnergyAnalytics
 Version: 0.1.0
 Date: 2017-11-13
-Description: Analytics Used in OpEnergy Application.
+Description: Analytics Used in OpEnergy Application <openergy.okfn.gr>.
 Authors@R: c(
     person("Kleanthis", "Koupidis", , "koupidis@okfn.gr", role = c("aut", "cre")),
     person("Charalampos", "Bratsas", , "charalampos.bratsas@okfn.org", role = "aut")
