@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^gross final energy consumption\.JSON$
+^gross electricity consumption\.JSON$
+^heating and cooling\.JSON$
+^transport\.JSON$
