@@ -1,0 +1,30 @@
+language: r
+sudo: false
+cache: packages
+
+r:
+  - oldrel
+  - release
+  - devel  
+before_install:
+  - tlmgr install index
+github_packages:
+  - devtools
+r_packages:
+ - DescriptiveStats.OBeu
+ - forecast
+ - foreach
+ - jsonlite
+ - locfit
+ - purrr
+ - rjson
+ - rlist
+ - stats
+ - TimeSeries.OBeu
+ - trend
+ - tseries
+ - utils
+apt_packages:
+  - libxml2-dev
+sudo: required
+warnings_are_errors: false
