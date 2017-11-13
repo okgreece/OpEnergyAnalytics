@@ -10,7 +10,8 @@ before_install:
   - tlmgr install index
 r_packages:
   - DescriptiveStats.OBeu
-  - devtools  - forecast
+  - devtools
+  - forecast
   - foreach
   - jsonlite
   - locfit
