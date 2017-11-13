@@ -18,11 +18,9 @@ r_packages:
   - purrr
   - rjson
   - rlist
-  - stats
   - TimeSeries.OBeu
   - trend
   - tseries
-  - utils
 apt_packages:
   - libxml2-dev
 sudo: required
