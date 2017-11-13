@@ -14,7 +14,7 @@ BugReports: https://github.com/okgreece/OpEnergyAnalytics/issues
 License: GPL-2 | file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: DescriptiveStats.OBeu, forecast, foreach, jsonlite, locfit, purrr, rjson, rlist, stats, TimeSeries.OBeu, trend, tseries, utils
+Imports: DescriptiveStats.OBeu, forecast, foreach, jsonlite, locfit, purrr, rjson, rlist, TimeSeries.OBeu, trend, tseries, utils
 RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown

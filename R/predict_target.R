@@ -24,6 +24,7 @@ if(getRversion() >= "2.15.1")  utils::globalVariables(c("predict_values","low80"
 #' @seealso \code{\link[TimeSeries.OBeu]{ts.analysis}}
 #' 
 #' @importFrom foreach %do%
+#' @importFrom stats na.omit
 #' @export
 
 predict_res_target <- function(json, targets2020="target", forward_steps= 5, toJSON= TRUE) {

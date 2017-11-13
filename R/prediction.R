@@ -22,7 +22,7 @@
 #' @author Kleanthis Koupidis
 #' 
 #' @rdname predict_onrg
-#' 
+#' @import stats
 #' @export
 
 

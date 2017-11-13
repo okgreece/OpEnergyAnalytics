@@ -2,4 +2,6 @@
 
 export(predict_onrg)
 export(predict_res_target)
+import(stats)
 importFrom(foreach,"%do%")
+importFrom(stats,na.omit)
