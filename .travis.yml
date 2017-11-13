@@ -28,3 +28,5 @@ apt_packages:
   - libxml2-dev
 sudo: required
 warnings_are_errors: false
+after_success:
+- Rscript -e 'covr::codecov()'
