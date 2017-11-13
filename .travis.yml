@@ -8,11 +8,9 @@ r:
   - devel  
 before_install:
   - tlmgr install index
-github_packages:
-  - DescriptiveStats.OBeu
-  - devtools
 r_packages:
-  - forecast
+  - DescriptiveStats.OBeu
+  - devtools  - forecast
   - foreach
   - jsonlite
   - locfit
