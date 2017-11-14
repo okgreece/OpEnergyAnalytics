@@ -9,10 +9,10 @@ r:
 before_install:
   - tlmgr install index
 github_packages:
+  - devtools
   - TimeSeries.OBeu
 r_packages:
  - DescriptiveStats.OBeu
- - devtools
  - forecast
  - foreach
  - jsonlite
