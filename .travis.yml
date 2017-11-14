@@ -9,8 +9,8 @@ r:
 before_install:
   - tlmgr install index
 github_packages:
-  - devtools
-  - TimeSeries.OBeu
+  - hadley/devtools
+  - okgreece/TimeSeries.OBeu
 r_packages:
  - DescriptiveStats.OBeu
  - forecast
