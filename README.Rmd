@@ -1,5 +1,5 @@
 ---
-title: OpEnergyAnalytics <img src="okfgr2.png" align="right" />
+title: <img src="okfgr2.png" align="right" />
 output:
   github_document:
     fig_width: 8
@@ -16,4 +16,27 @@ output:
 [![minimal R version](https://img.shields.io/badge/R%3E%3D-3.1-6666ff.svg)](https://cran.r-project.org/)
 [![Licence](https://img.shields.io/badge/licence-GPL--2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
+# OpEnergyAnalytics
+
 Energy Analytics used in [OpEnergy](http://openergy.okfn.gr).
+
+
+#Install:
+
+Load *devtools* library or install it if not already:
+
+```{r, eval=FALSE, include=T}
+install.packages("devtools")
+```
+
+Then install *OpEnergyAnalytics* from [Github](https://github.com/okgreece/OpEnergyAnalytics)
+
+```{r, eval=FALSE, include=T}
+devtools::install_github("okgreece/OpEnergyAnalytics")
+```
+
+And load the library
+
+```{r}
+library(OpEnergyAnalytics)
+```
