@@ -8,19 +8,20 @@ r:
   - devel  
 before_install:
   - tlmgr install index
-r_packages:
-  - DescriptiveStats.OBeu
-  - devtools
-  - forecast
-  - foreach
-  - jsonlite
-  - locfit
-  - purrr
-  - rjson
-  - rlist
+github_packages:
   - TimeSeries.OBeu
-  - trend
-  - tseries
+r_packages:
+ - DescriptiveStats.OBeu
+ - devtools
+ - forecast
+ - foreach
+ - jsonlite
+ - locfit
+ - purrr
+ - rjson
+ - rlist
+ - trend
+ - tseries
 apt_packages:
   - libxml2-dev
 sudo: required

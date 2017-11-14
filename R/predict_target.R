@@ -1,4 +1,3 @@
-if(getRversion() >= "2.15.1")  utils::globalVariables(c("predict_values","low80","up80"))
 #' @title 
 #' Predictions
 #'  
@@ -28,7 +27,7 @@ if(getRversion() >= "2.15.1")  utils::globalVariables(c("predict_values","low80"
 #' @export
 
 predict_res_target <- function(json, targets2020="target", forward_steps= 5, toJSON= TRUE) {
-  
+  predict_values=low80=up80=NULL
   data <- jsonlite::fromJSON(json)
   
   EU=c("EU-28", "Belgium", "Bulgaria", "Czech Republic", "Denmark", "Germany", "Estonia", "Ireland", 
