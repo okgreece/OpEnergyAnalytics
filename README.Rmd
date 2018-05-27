@@ -9,7 +9,7 @@ output:
   number_sections: yes
 ---
 
-[![Build Status](https://travis-ci.org/okgreece/OpEnergyAnalytics.svg?branch=master)](https://travis-ci.org/okgreece/OpEnergyAnalytics)
+[![Build Status](https://travis-ci.org/okgreece/OpEnergyAnalytics.svg?branch=master)](https://travis-ci.org/okgreece/OpEnergyAnalytics) 
 [![Pending Pull-Requests](http://githubbadges.herokuapp.com/okgreece/OpEnergyAnalytics/pulls.svg)](https://github.com/okgreece/OpEnergyAnalytics/pulls)
 [![Github Issues](http://githubbadges.herokuapp.com/okgreece/OpEnergyAnalytics/issues.svg)](https://github.com/okgreece/OpEnergyAnalytics/issues)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
